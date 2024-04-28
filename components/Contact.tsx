@@ -1,87 +1,102 @@
 import React from 'react'
-import { FaFacebookF,FaInstagram,FaYoutube,FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
 import { TbLetterPSmall, TbSquareRoundedLetterP } from "react-icons/tb";
+import Image from 'next/image'
+import b_1 from '../public/assets/images/blog/b-1.jpg'
+import b_2 from '../public/assets/images/blog/b-2.jpg'
+import b_3 from '../public/assets/images/blog/b-3.jpg'
 const Contact = () => {
   return (
     <div className='bg-[#0a023a] shadow md:px-20 px-5 py-10 rounded-sm w-full md:m-0 '>
-            <div className='flex md:flex-row flex-col justify-between md:items-center'>
-                <p className='text-white font-bold text-lg w-[200px]'>Subscribe Newsletter For Latest Updates</p>
-                <div className='bg-white my-2 pl-5 h-[26px] md:h-[45px]  w-[90%]  md:w-1/2 flex justify-between items-center rounded-xl md:rounded-full'>
-                    <input placeholder='E-Mail Type...' className='border-none outline-none text-black bg-transparent'/>
-                    <button className='text-white bg-[#fdb705] rounded-xl md:rounded-full h-full px-2 md:px-7'>SUBSCRIBE</button>
-                </div>
-                <div className='flex justify-between py-3 md:py-1 w-[300px] '>
-                <FaFacebookF className='w-10 h-10 bg-[#3924b170] rounded-full p-2'/>
-                <FaTwitter className='w-10 h-10 bg-[#3924b170] rounded-full p-2'/>
-                <FaInstagram className='w-10 h-10 bg-[#3924b170] rounded-full p-2'/>
-                <TbSquareRoundedLetterP className='w-10 h-10 bg-[#3924b170] rounded-full p-2'/>
-                <FaYoutube className='w-10 h-10 bg-[#3924b170] rounded-full p-2'/>
-                
-                </div>
-            </div>
-            <div className='flex md:flex-row flex-col justify-between  border-t-2 border-[#7979cf] shadow-lg md:h-[250px] h-full w-full my-10'>
-                <div className='w-[300px] md:w-[400px] text-[#a7a7ef] pt-10'>
-                    <h1 className='text-white text-3xl font-bold  py-2'>Apexa</h1>
-                    <p className='py-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
-                   <button className='flex items-center py-2'>
-                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
-</svg>
-<p className='pl-2'>+123 888 9999</p>
-
-                   </button>
-                   <button className='flex items-center py-2'>
-                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
-</svg>
-
-<p className='pl-2'>info@apexa.com</p>
-                   </button>
-                   <div className='flex justify-center py-2'>
-                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
-</svg>
-<p className='pl-2'>Sydney Harbour Bridge Circular City of Sydney Australia.</p>
-                   </div>
-
-                </div>
-                <div className=' text-[#a7a7ef] pt-10'>
-                  <h1 className='text-xl font-semibold text-white'>Information</h1>
-                  <p className='border-b-4 rounded-sm border-[#fdb705]  w-10 '></p>
-                     <p className='pt-5'>Information</p>
-                     <p className='py-1.5'>About us</p>
-                     <p className='py-1.5'>Meet our team</p>
-                     <p className='py-1.5'>Case stories</p>
-                     <p className='py-1.5'>Latest news</p>
-                     <p className='py-1.5'>Contact us</p>
-                     
-                </div>
-                <div className=' text-[#a7a7ef] pt-10'>
-                  <h1 className='text-xl font-semibold text-white'>Top Links</h1>
-                  <p className='border-b-4 rounded-sm border-[#fdb705]  w-10 '></p>
-                  <p className='pt-5'>How it's Work</p>
-                     <p className='py-1.5'>About us</p>
-                     <p className='py-1.5'>Partners</p>
-                     <p className='py-1.5'>Testimonials</p>
-                     <p className='py-1.5'>Case Studies</p>
-                     <p className='py-1.5'>Pricing</p>
-                </div>
-                <div className=' text-[#a7a7ef] pt-10'>
-                  <h1 className='text-xl font-semibold text-white'>Instagram Posts</h1>
-                  <p className='border-b-4 rounded-sm border-[#fdb705]  w-10 '></p>
-                 <div className='mt-5 grid grid-cols-3 gap-3'>
-                  <img  src='data:image/jpeg;base64,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' className=' opacity-90 w-[100px] h-[100px] rounded-md'/>
-                  <img  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQ-5_bqbQja3uEQAr7nTzbVPBJe3oce5mDGQ&s' className=' opacity-90 w-[100px] h-[100px] rounded-md'/>
-                  <img  src='data:image/jpeg;base64,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' className=' opacity-90 w-[100px] h-[100px] rounded-md'/>
-                  <img  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDJ4rmC1LA8BUO0T-YP4cEus_4Z0BjvjOMIQ&s' className=' opacity-90 w-[100px] h-[100px] rounded-md'/>
-                  <img  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOTq7nOtY2pdJ5dCZu-P7z5d76O-g-HqaCDg&s' className=' opacity-90 w-[100px] h-[100px] rounded-md'/>
-                  <img  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH7LPTrA8SiLo3CZNsDDCul_w4KyMW2jCaPA&s' className=' opacity-90 w-[100px] h-[100px] rounded-md'/>
-                  
-                 </div>
-                </div>
+      <div className='flex md:flex-row flex-col justify-between md:items-center'>
+        <p className='text-white font-bold text-lg w-[200px]'>Subscribe Newsletter For Latest Updates</p>
+        <div className='bg-white my-2 pl-5 h-[26px] md:h-[45px]  w-[90%]  md:w-1/2 flex justify-between items-center rounded-xl md:rounded-full'>
+          <input placeholder='E-Mail Type...' className='border-none outline-none text-black bg-transparent' />
+          <button className='text-white bg-[#fdb705] rounded-xl md:rounded-full h-full px-2 md:px-7'>SUBSCRIBE</button>
+        </div>
+        <div className='flex justify-between py-3 md:py-1 w-[300px] text-[#fff]'>
+          <FaFacebookF className='w-10 h-10 bg-[#3924b170] rounded-full p-2' />
+          <FaTwitter className='w-10 h-10 bg-[#3924b170] rounded-full p-2' />
+          <FaInstagram className='w-10 h-10 bg-[#3924b170] rounded-full p-2' />
+          <TbSquareRoundedLetterP className='w-10 h-10 bg-[#3924b170] rounded-full p-2' />
+          <FaYoutube className='w-10 h-10 bg-[#3924b170] rounded-full p-2' />
 
         </div>
+      </div>
+      <div className='flex md:flex-row flex-col justify-between  border-t-2 border-[#7979cf] shadow-lg md:h-[250px] h-full w-full my-10'>
+        <div className='w-[300px] md:w-[400px] text-[#a7a7ef] pt-10'>
+          <h1 className='text-white text-3xl font-bold  py-2'>Apexa</h1>
+          <p className='py-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
+          <button className='flex items-center py-2'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 3.75v4.5m0-4.5h-4.5m4.5 0-6 6m3 12c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+            </svg>
+            <p className='pl-2'>+123 888 9999</p>
+
+          </button>
+          <button className='flex items-center py-2'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+            </svg>
+
+            <p className='pl-2'>info@apexa.com</p>
+          </button>
+          <div className='flex justify-center py-2'>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+            </svg>
+            <p className='pl-2'>Sydney Harbour Bridge Circular City of Sydney Australia.</p>
+          </div>
+
+        </div>
+        <div className=' text-[#a7a7ef] pt-10'>
+          <h1 className='text-xl font-semibold text-white'>Information</h1>
+          <p className='border-b-4 rounded-sm border-[#fdb705]  w-10 '></p>
+          <p className='pt-5'>Information</p>
+          <p className='py-1.5'>About us</p>
+          <p className='py-1.5'>Meet our team</p>
+          <p className='py-1.5'>Case stories</p>
+          <p className='py-1.5'>Latest news</p>
+          <p className='py-1.5'>Contact us</p>
+
+        </div>
+        <div className=' text-[#a7a7ef] pt-10'>
+          <h1 className='text-xl font-semibold text-white'>Top Links</h1>
+          <p className='border-b-4 rounded-sm border-[#fdb705]  w-10 '></p>
+          <p className='pt-5'>How it's Work</p>
+          <p className='py-1.5'>About us</p>
+          <p className='py-1.5'>Partners</p>
+          <p className='py-1.5'>Testimonials</p>
+          <p className='py-1.5'>Case Studies</p>
+          <p className='py-1.5'>Pricing</p>
+        </div>
+        <div className=' text-[#a7a7ef] pt-10'>
+          <h1 className='text-xl font-semibold text-white'>Instagram Posts</h1>
+          <p className='border-b-4 rounded-sm border-[#fdb705]  w-10 '></p>
+          <div className='mt-5 grid grid-cols-3 gap-3'>
+            <div className='w-[100px] h-[100px]'>
+              <Image className='w-full h-full object-cover  opacity-90  rounded-md' src={b_1} alt="Not found" />
+            </div>
+            <div className='w-[100px] h-[100px]'>
+              <Image className='w-full h-full object-cover  opacity-90  rounded-md' src={b_3} alt="Not found" />
+            </div>
+            <div className='w-[100px] h-[100px]'>
+              <Image className='w-full h-full object-cover  opacity-90  rounded-md' src={b_2} alt="Not found" />
+            </div>
+            <div className='w-[100px] h-[100px]'>
+              <Image className='w-full h-full object-cover  opacity-90  rounded-md' src={b_3} alt="Not found" />
+            </div>
+            <div className='w-[100px] h-[100px]'>
+              <Image className='w-full h-full object-cover  opacity-90  rounded-md' src={b_2} alt="Not found" />
+            </div>
+            <div className='w-[100px] h-[100px]'>
+              <Image className='w-full h-full object-cover  opacity-90  rounded-md' src={b_1} alt="Not found" />
+            </div>
+          </div>
+        </div>
+
+      </div>
 
     </div>
   )

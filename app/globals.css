@@ -73,3 +73,56 @@ body {
 .blog_sec .main_img:hover {
   transform: scale(1.2);
 }
+.react-tabs__tab--selected {
+  background: none !important;
+  border-radius: 0px !important;
+  border-bottom: 2px solid #000 !important;
+  border-left: 0px !important;
+  border-top: 0px !important;
+  border-right: 0px !important;
+  color: #000;
+}
+.react-tabs__tab:focus:after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: none !important;
+}
+.react-tabs__tab {
+  color: #687799;
+}
+.carousel-item {
+  padding: 0 10px; 
+}
+.carousel-container {
+  position: relative;
+}
+
+.react-multi-carousel-list {
+  padding-top: 200px;
+}
+.react-multiple-carousel__arrow--right {
+  top: 20px;
+  background: #fff !important;
+}
+.react-multiple-carousel__arrow--left {
+  background: #fff !important;
+  top: 20px;
+  left: calc(87% + 1px) !important;
+}
+
+.react-multiple-carousel__arrow--left::before {
+  color: #000 !important;
+  /* content: '\21A2' !important; */
+}
+
+.react-multiple-carousel__arrow--right::before {
+  color: #000 !important;
+  /* content: '\2794' !important; */
+}
+.services_sec svg {
+  color: #fff;
+}

@@ -1,4 +1,7 @@
-import React from 'react'
+"use client";
+import React from 'react';
+import 'react-tabs/style/react-tabs.css';
+
 import Header from '../components/Header'
 import Landing from '@/components/Landing'
 import BusinessServices from '@/components/BusinessServices'

@@ -1,8 +1,13 @@
 import React from 'react';
+import Image from 'next/image'
 import { FaLinkedinIn, FaInstagramSquare, FaTwitter, FaFacebookF } from "react-icons/fa";
+import t_1 from '../public/assets/images/team/t-1.jpg'
+import t_2 from '../public/assets/images/team/t-2.jpg'
+import t_3 from '../public/assets/images/team/t-3.jpg'
+import t_4 from '../public/assets/images/team/t-4.jpg'
 
 const Team = () => {
-    return <section className='team_sec bg-[#fff] py-10 px-3'>
+    return <section className='team_sec bg-[#fff] py-20'>
         <div className='container'>
             <div className="title_part">
                 <h5 className='bg-[#0055FF] inline-block rounded-full px-3 py-2 font-medium text-sm'>EXPERT PEOPLE</h5>
@@ -15,7 +20,7 @@ const Team = () => {
                 <div className='cursor-pointer hover:relative top-[-10px]'>
                     <div className="box relative ">
                         <div className="img_size w-full h-[400px] rounded-[10px] " >
-                            <img src='https://themedox.com/gerow/wp-content/uploads/2023/08/h2_team_img01.jpg' className='w-full h-full rounded-[10px]' alt="" />
+                            <Image className='w-full h-full rounded-[10px] object-cover' src={t_1} alt="Not found" />
                         </div>
                         <div className="top_title absolute top-5 left-5">
                             <a href="#" className='text-[25px] font-bold text-[#fff]'>Brooklyn Simmons</a>
@@ -34,7 +39,7 @@ const Team = () => {
                 <div className='cursor-pointer hover:relative top-[-10px]'>
                     <div className="box relative ">
                         <div className="img_size w-full h-[400px] rounded-[10px] " >
-                            <img src='https://themedox.com/gerow/wp-content/uploads/2023/08/h2_team_img02.jpg' className='w-full h-full rounded-[10px]' alt="" />
+                            <Image className='w-full h-full rounded-[10px] object-cover' src={t_2} alt="Not found" />
                         </div>
                         <div className="top_title absolute top-5 left-5">
                             <a href="#" className='text-[25px] font-bold text-[#fff]'>Brooklyn Simmons</a>
@@ -53,7 +58,7 @@ const Team = () => {
                 <div className='cursor-pointer hover:relative top-[-10px]'>
                     <div className="box relative ">
                         <div className="img_size w-full h-[400px] rounded-[10px] " >
-                            <img src='https://themedox.com/gerow/wp-content/uploads/2023/08/h2_team_img01.jpg' className='w-full h-full rounded-[10px]' alt="" />
+                            <Image className='w-full h-full rounded-[10px] object-cover' src={t_3} alt="Not found" />
                         </div>
                         <div className="top_title absolute top-5 left-5">
                             <a href="#" className='text-[25px] font-bold text-[#fff]'>Brooklyn Simmons</a>
@@ -72,7 +77,7 @@ const Team = () => {
                 <div className='cursor-pointer hover:relative top-[-10px]'>
                     <div className="box relative ">
                         <div className="img_size w-full h-[400px] rounded-[10px] " >
-                            <img src='https://themedox.com/gerow/wp-content/uploads/2023/08/h2_team_img04.jpg' className='w-full h-full rounded-[10px]' alt="" />
+                            <Image className='w-full h-full rounded-[10px] object-cover' src={t_4} alt="Not found" />
                         </div>
                         <div className="top_title absolute top-5 left-5">
                             <a href="#" className='text-[25px] font-bold text-[#fff]'>Brooklyn Simmons</a>
