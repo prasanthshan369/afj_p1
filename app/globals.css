@@ -49,7 +49,7 @@ body {
   left: 0;
 }
 .team_sec .soc_icon a svg{
-  rotate: -90deg;
+  /* rotate: -90deg; */
   transition : rotate 0.3s ease-in 
 }
 .team_sec .soc_icon a svg:hover {
@@ -103,15 +103,17 @@ body {
 
 .react-multi-carousel-list {
   padding-top: 200px;
+  /* margin-left:100px; */
+  width: 100%;
 }
 .react-multiple-carousel__arrow--right {
-  top: 20px;
+  top: 100px;
   background: #fff !important;
 }
 .react-multiple-carousel__arrow--left {
   background: #fff !important;
-  top: 20px;
-  left: calc(87% + 1px) !important;
+  top: 100px;
+  left: calc(83% + 1px) !important;
 }
 
 .react-multiple-carousel__arrow--left::before {

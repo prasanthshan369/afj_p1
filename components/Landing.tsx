@@ -1,8 +1,10 @@
 import React from 'react'
+import men from '../public/assets/images/men.jpg'
+import Image from 'next/image'
 
 const Landing = () => {
   return (
-    <div className='md:px-20 px-5 pt-5 shadow pb-1 sm:px-0'>
+    <div className='md:px-20 px-5 pt-5 shadow pb-1 sm:px-0 bg-white'>
       <div className='flex md:flex-row flex-col justify-around items-center h-full px-5'>
         <div className='flex items-center flex-col justify-center py-10'>
           <p className='text-blue-600 rounded-xl bg-blue-100 p-1 px-5 w-fit py-2 font-semibold'>WE ARE EXPERT IN THIS FIELD</p>
@@ -28,7 +30,7 @@ const Landing = () => {
           </div>
         </div>
         <div>
-          <img src="https://themedox.com/gerow/wp-content/uploads/2023/08/h2_banner_img.png" className='md:h-[493px] h-full mt-10 md:mt-0  md:w-[350px] w-full   ' alt="" />
+          <Image src={men} className='md:h-[493px] h-full mt-10 md:mt-0  md:w-[350px] w-full   ' alt="" />
         </div>
       </div>
     </div>

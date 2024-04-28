@@ -7,10 +7,10 @@ import b_2 from '../public/assets/images/blog/b-2.jpg'
 import b_3 from '../public/assets/images/blog/b-3.jpg'
 const Contact = () => {
   return (
-    <div className='bg-[#0a023a] shadow md:px-20 px-5 py-10 rounded-sm w-full md:m-0 '>
+    <div className='bg-[#0a023a] shadow md:px-10 px-5 py-10 rounded-sm w-full md:m-0 '>
       <div className='flex md:flex-row flex-col justify-between md:items-center'>
         <p className='text-white font-bold text-lg w-[200px]'>Subscribe Newsletter For Latest Updates</p>
-        <div className='bg-white my-2 pl-5 h-[26px] md:h-[45px]  w-[90%]  md:w-1/2 flex justify-between items-center rounded-xl md:rounded-full'>
+        <div className='bg-white my-2 pl-5 h-[26px] md:h-[45px]  w-[90%]  md:w-1/2 md:mx-3 flex justify-between items-center rounded-xl md:rounded-full'>
           <input placeholder='E-Mail Type...' className='border-none outline-none text-black bg-transparent' />
           <button className='text-white bg-[#fdb705] rounded-xl md:rounded-full h-full px-2 md:px-7'>SUBSCRIBE</button>
         </div>
@@ -24,7 +24,7 @@ const Contact = () => {
         </div>
       </div>
       <div className='flex md:flex-row flex-col justify-between  border-t-2 border-[#7979cf] shadow-lg md:h-[250px] h-full w-full my-10'>
-        <div className='w-[300px] md:w-[400px] text-[#a7a7ef] pt-10'>
+        <div className='w-[300px] md:w-[350px] md:text-sm text-[#a7a7ef] pt-10'>
           <h1 className='text-white text-3xl font-bold  py-2'>Apexa</h1>
           <p className='py-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet.</p>
           <button className='flex items-center py-2'>
@@ -50,8 +50,8 @@ const Contact = () => {
           </div>
 
         </div>
-        <div className=' text-[#a7a7ef] pt-10'>
-          <h1 className='text-xl font-semibold text-white'>Information</h1>
+        <div className=' text-[#a7a7ef] md:text-sm pt-10'>
+          <h1 className='text-xl md:text-sm font-semibold text-white'>Information</h1>
           <p className='border-b-4 rounded-sm border-[#fdb705]  w-10 '></p>
           <p className='pt-5'>Information</p>
           <p className='py-1.5'>About us</p>
@@ -61,8 +61,8 @@ const Contact = () => {
           <p className='py-1.5'>Contact us</p>
 
         </div>
-        <div className=' text-[#a7a7ef] pt-10'>
-          <h1 className='text-xl font-semibold text-white'>Top Links</h1>
+        <div className=' text-[#a7a7ef] md:text-sm pt-10'>
+          <h1 className='text-xl md:text-sm font-semibold text-white'>Top Links</h1>
           <p className='border-b-4 rounded-sm border-[#fdb705]  w-10 '></p>
           <p className='pt-5'>How it's Work</p>
           <p className='py-1.5'>About us</p>
@@ -72,25 +72,25 @@ const Contact = () => {
           <p className='py-1.5'>Pricing</p>
         </div>
         <div className=' text-[#a7a7ef] pt-10'>
-          <h1 className='text-xl font-semibold text-white'>Instagram Posts</h1>
+          <h1 className='text-xl  md:text-sm font-semibold text-white'>Instagram Posts</h1>
           <p className='border-b-4 rounded-sm border-[#fdb705]  w-10 '></p>
-          <div className='mt-5 grid grid-cols-3 gap-3'>
-            <div className='w-[100px] h-[100px]'>
+          <div className='mt-5 grid grid-cols-3 gap-3 md:gap-x-5'>
+            <div className='w-[100px] h-[100px] md:w-[70px] md:h-[70px]'>
               <Image className='w-full h-full object-cover  opacity-90  rounded-md' src={b_1} alt="Not found" />
             </div>
-            <div className='w-[100px] h-[100px]'>
+            <div className='w-[100px] h-[100px] md:w-[70px] md:h-[70px]'>
               <Image className='w-full h-full object-cover  opacity-90  rounded-md' src={b_3} alt="Not found" />
             </div>
-            <div className='w-[100px] h-[100px]'>
+            <div className='w-[100px] h-[100px] md:w-[70px] md:h-[70px]'>
               <Image className='w-full h-full object-cover  opacity-90  rounded-md' src={b_2} alt="Not found" />
             </div>
-            <div className='w-[100px] h-[100px]'>
+            <div className='w-[100px] h-[100px] md:w-[70px] md:h-[70px]'>
               <Image className='w-full h-full object-cover  opacity-90  rounded-md' src={b_3} alt="Not found" />
             </div>
-            <div className='w-[100px] h-[100px]'>
+            <div className='w-[100px] h-[100px] md:w-[70px] md:h-[70px]'>
               <Image className='w-full h-full object-cover  opacity-90  rounded-md' src={b_2} alt="Not found" />
             </div>
-            <div className='w-[100px] h-[100px]'>
+            <div className='w-[100px] h-[100px] md:w-[70px] md:h-[70px]'>
               <Image className='w-full h-full object-cover  opacity-90  rounded-md' src={b_1} alt="Not found" />
             </div>
           </div>

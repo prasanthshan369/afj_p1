@@ -68,7 +68,7 @@ const BusinessServices = () => {
             customTransition="all 1.5s"
             transitionDuration={500}
             containerClass="carousel-container"
-            removeArrowOnDeviceType={["tablet", "mobile"]}
+            removeArrowOnDeviceType={["mobile"]}
             dotListClass="custom-dot-list-style"
             // partialVisible={false}
             itemClass="carousel-item"

@@ -27,11 +27,11 @@ const Team = () => {
                             <p className='text-[16px] relative text-[#fff]'>Finance Advisor</p>
                         </div>
                         <div className="soc_icon absolute bottom-5 left-5">
-                            <ul className='bg-[#0045CE] inline-block px-3 py-4 rounded-[30px]'>
-                                <li className='mb-3'><a className='text-[#fff] text-[20px]' href="#"><FaLinkedinIn /></a></li>
-                                <li className='mb-3'><a className='text-[#fff] text-[20px]' href="#"><FaInstagramSquare /></a></li>
-                                <li className='mb-3'><a className='text-[#fff] text-[20px]' href="#"><FaTwitter /></a></li>
-                                <li className='mb-0'><a className='text-[#fff] text-[20px]' href="#"><FaFacebookF /></a></li>
+                            <ul className='bg-[#0045CE] px-3 py-3 flex flex-row  justify-between rounded-[30px]'>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaLinkedinIn /></a></li>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaInstagramSquare /></a></li>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaTwitter /></a></li>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaFacebookF /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -46,11 +46,11 @@ const Team = () => {
                             <p className='text-[16px] relative text-[#fff]'>Finance Advisor</p>
                         </div>
                         <div className="soc_icon absolute bottom-5 left-5">
-                            <ul className='bg-[#0045CE] inline-block px-3 py-4 rounded-[30px]'>
-                                <li className='mb-3'><a className='text-[#fff] text-[20px]' href="#"><FaLinkedinIn /></a></li>
-                                <li className='mb-3'><a className='text-[#fff] text-[20px]' href="#"><FaInstagramSquare /></a></li>
-                                <li className='mb-3'><a className='text-[#fff] text-[20px]' href="#"><FaTwitter /></a></li>
-                                <li className='mb-0'><a className='text-[#fff] text-[20px]' href="#"><FaFacebookF /></a></li>
+                            <ul className='bg-[#0045CE]  px-3 py-3 flex flex-row  justify-between rounded-[30px]'>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaLinkedinIn /></a></li>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaInstagramSquare /></a></li>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaTwitter /></a></li>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaFacebookF /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -65,11 +65,11 @@ const Team = () => {
                             <p className='text-[16px] relative text-[#fff]'>Finance Advisor</p>
                         </div>
                         <div className="soc_icon absolute bottom-5 left-5">
-                            <ul className='bg-[#0045CE] inline-block px-3 py-4 rounded-[30px]'>
-                                <li className='mb-3'><a className='text-[#fff] text-[20px]' href="#"><FaLinkedinIn /></a></li>
-                                <li className='mb-3'><a className='text-[#fff] text-[20px]' href="#"><FaInstagramSquare /></a></li>
-                                <li className='mb-3'><a className='text-[#fff] text-[20px]' href="#"><FaTwitter /></a></li>
-                                <li className='mb-0'><a className='text-[#fff] text-[20px]' href="#"><FaFacebookF /></a></li>
+                            <ul className='bg-[#0045CE] px-3 py-3 flex flex-row  justify-between rounded-[30px]'>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaLinkedinIn /></a></li>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaInstagramSquare /></a></li>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaTwitter /></a></li>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaFacebookF /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -84,11 +84,11 @@ const Team = () => {
                             <p className='text-[16px] relative text-[#fff]'>Finance Advisor</p>
                         </div>
                         <div className="soc_icon absolute bottom-5 left-5">
-                            <ul className='bg-[#0045CE] inline-block px-3 py-4 rounded-[30px]'>
-                                <li className='mb-3'><a className='text-[#fff] text-[20px]' href="#"><FaLinkedinIn /></a></li>
-                                <li className='mb-3'><a className='text-[#fff] text-[20px]' href="#"><FaInstagramSquare /></a></li>
-                                <li className='mb-3'><a className='text-[#fff] text-[20px]' href="#"><FaTwitter /></a></li>
-                                <li className='mb-0'><a className='text-[#fff] text-[20px]' href="#"><FaFacebookF /></a></li>
+                            <ul className='bg-[#0045CE] px-3 py-3 flex flex-row  justify-between rounded-[30px]'>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaLinkedinIn /></a></li>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaInstagramSquare /></a></li>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaTwitter /></a></li>
+                                <li className='mx-2'><a className='text-[#fff] text-[20px]' href="#"><FaFacebookF /></a></li>
                             </ul>
                         </div>
                     </div>

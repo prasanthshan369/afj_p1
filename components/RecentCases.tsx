@@ -4,6 +4,12 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import c_1 from '../public/assets/images/case/case-1.png'
 import c_2 from '../public/assets/images/case/case-2.png'
 import c_3 from '../public/assets/images/case/case-3.png'
+import c_4 from '../public/assets/images/case/c_4.jpg'
+import c_5 from '../public/assets/images/case/c_5.jpg'
+import c_6 from '../public/assets/images/case/c_6.jpg'
+import c_7 from '../public/assets/images/case/c_7.jpg'
+import c_8 from '../public/assets/images/case/c_8.jpg'
+import t_2 from '../public/assets/images/team/t-2.png'
 const RecentCases = () => {
   return (<section className='csase_studies_sec py-20'>
     <div className="container">
@@ -19,52 +25,77 @@ const RecentCases = () => {
           </TabList>
         </div>
         <TabPanel>
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-9">
-            <div className="w-full h-[430px]">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_1} alt="Not found" />
+          <div className="grid lg:grid-cols-4 lg:grid-rows-2  md:grid-cols-3 sm:grid-cols-2 gap-9">
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_1} alt="Not found" />
             </div>
-            <div className="w-full h-[430px]">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_2} alt="Not found" />
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_2} alt="Not found" />
             </div>
-            <div className="w-full h-[430px]">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_3} alt="Not found" />
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_3} alt="Not found" />
             </div>
-          </div>
-        </TabPanel>
-        <TabPanel>
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-9">
-            <div className="w-full h-[430px]">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_1} alt="Not found" />
-
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-fill shadow-lg rounded-md " src={c_4} alt="Not found" />
             </div>
-          </div>
-        </TabPanel>
-        <TabPanel>
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-9">
-            <div className="w-full h-[430px]">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_3} alt="Not found" />
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-fill shadow-lg rounded-md " src={c_5} alt="Not found" />
             </div>
-            <div className="w-full h-[430px]">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_2} alt="Not found" />
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-fill shadow-lg rounded-md " src={c_6} alt="Not found" />
             </div>
-            <div className="w-full h-[430px]">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_1} alt="Not found" />
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-fill shadow-lg rounded-md " src={c_7} alt="Not found" />
+            </div>
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-fill shadow-lg rounded-md " src={c_8} alt="Not found" />
             </div>
           </div>
         </TabPanel>
         <TabPanel>
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-9">
-            <div className="w-full h-[430px]">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_2} alt="Not found" />
+          <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-9">
+          <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_1} alt="Not found" />
             </div>
-            <div className="w-full h-[430px]">
-            <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_1} alt="Not found" />
-
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_2} alt="Not found" />
+            </div>
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_3} alt="Not found" />
             </div>
           </div>
         </TabPanel>
         <TabPanel>
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-9">
+          <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-9">
+          <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-fill shadow-lg rounded-md " src={c_6} alt="Not found" />
+            </div>
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-fill shadow-lg rounded-md " src={c_7} alt="Not found" />
+            </div>
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-fill shadow-lg rounded-md " src={c_8} alt="Not found" />
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel>
+          <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-9">
+          <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-fill shadow-lg rounded-md " src={c_4} alt="Not found" />
+            </div>
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-fill shadow-lg rounded-md " src={c_5} alt="Not found" />
+            </div>
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-fill shadow-lg rounded-md " src={c_6} alt="Not found" />
+            </div>
+            <div className="w-full h-[300px]">
+              <Image className="w-full h-full object-fill shadow-lg rounded-md " src={c_7} alt="Not found" />
+            </div>
+          </div>
+        </TabPanel>
+        <TabPanel>
+          <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 gap-9">
             <div className="w-full h-[430px]">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_1} alt="Not found" />
             </div>
