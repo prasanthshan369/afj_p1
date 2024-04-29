@@ -25,7 +25,7 @@ const Header = () => {
 
   return (
     <nav className='bg-white h-[70px] w-full flex shadow sticky top-0 z-10 justify-between px-3  py-3 '>
-      <Image className='w-24 md:w-36  object-contain' src={logo} alt="" />
+      <Image className='w-24 md:w-36 h-14  object-contain' src={logo} alt="" />
 <div className='md:flex justify-evenly items-center w-1/2 hidden '>
 <div className="relative">
       <button
@@ -163,7 +163,7 @@ const Header = () => {
 <p className='font-bold text-black'>+123 8989 444</p>
 </div>
 </div>
-<button className=' border-gray-300 h-full px-3 mx-2 border-x-2'>
+<button className=' border-gray-300 h-full px-3 border-x-2'>
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className=" text-gray-400 w-6 h-6  ">
   <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
 </svg>
@@ -185,15 +185,19 @@ const Header = () => {
   togglemenu && <div className='bg-white w-1/2 md:w-1/4 md:h-full h-full rounded-md fixed top-0 right-0'>
     <div className='p-5'>
      <div className='flex justify-between px-2 pt-5'>
-     <div className='border-b-2 border-blue-500 pb-5 '>
-    <Image className='w-24 md:w-32   object-contain' src={logo} alt="" />
+     <div className='border-b-2 border-blue-500 p3-5 '>
+    <Image className='w-24 md:w-36 h-14  object-contain' src={logo} alt="" />
     </div>
     <FaRegWindowClose className='text-blue-700 w-8 h-8 cursor-pointer' onClick={()=>setTogglemenu(!togglemenu)}/>
      </div>
-    <div className='py-2 mt-10'>
-      <p className='text-lg font-bold py-1 text-black'>Office Address</p>
-      <p className='text-base font-medium py-1 md:w-[200px] w-200 text-gray-500'>123/A, K.K. Nagar West
-      Chennai - 600 078</p>
+    <div className='py-2 mt-3'>
+      <p className='text-lg font-bold pt-1 text-black'>Categories</p>
+    <ul className=' ml-5 text-base list-disc font-medium py-1 w-[150px] text-gray-500'>
+      <li className='cursor-pointer' >Products </li>
+      <li className='cursor-pointer'>New Items </li>
+      <li className='cursor-pointer'>Fashion </li>
+      <li className='cursor-pointer'>Appliances </li>
+    </ul>
     </div>
     <div className='py-2'>
       <p className='text-lg font-bold py-1 text-black'>Phone Number</p>
@@ -207,12 +211,12 @@ support@example.com
 
 </p>
     </div>
-    <div className='flex justify-evenly mt-10  '>
-                <FaFacebookF className='w-8 h-8 text-blue-600 rounded-full'/>
-                <FaTwitter className='w-8 h-8 text-blue-600 rounded-full'/>
-                <FaInstagram className='w-8 h-8 text-blue-600 rounded-full'/>
-                <TbSquareRoundedLetterP className='w-8 h-8 text-blue-600 rounded-full'/>
-                <FaYoutube className='w-8 h-8 text-blue-600 rounded-full'/>
+    <div className='flex justify-between mt-5 w-[85%]   '>
+                <FaFacebookF className='w-8 h-8 text-blue-600 rounded-full cursor-pointer'/>
+                <FaTwitter className='w-8 h-8 text-blue-600 rounded-full cursor-pointer'/>
+                <FaInstagram className='w-8 h-8 text-blue-600 rounded-full cursor-pointer'/>
+                <TbSquareRoundedLetterP className='w-8 h-8 text-blue-600 rounded-full cursor-pointer'/>
+                <FaYoutube className='w-8 h-8 text-blue-600 rounded-full cursor-pointer'/>
                 </div>
     </div>
 
