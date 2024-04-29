@@ -27,13 +27,13 @@ const RecentCases = () => {
         <TabPanel>
           <div className="grid lg:grid-cols-4 lg:grid-rows-2  md:grid-cols-3 sm:grid-cols-2 gap-9">
             <div className="w-full h-[300px] bg-white">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_1} alt="Not found" />
+              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_1} alt="Not found" />
             </div>
             <div className="w-full h-[300px] bg-white">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_2} alt="Not found" />
+              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_2} alt="Not found" />
             </div>
             <div className="w-full h-[300px] bg-white">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_3} alt="Not found" />
+              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_3} alt="Not found" />
             </div>
             <div className="w-full h-[300px] bg-white">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_4} alt="Not found" />
@@ -55,13 +55,13 @@ const RecentCases = () => {
         <TabPanel>
           <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-9">
           <div className="w-full h-[300px] bg-white">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_1} alt="Not found" />
+              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_1} alt="Not found" />
             </div>
             <div className="w-full h-[300px] bg-white">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_2} alt="Not found" />
+              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_2} alt="Not found" />
             </div>
             <div className="w-full h-[300px] bg-white">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_3} alt="Not found" />
+              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_3} alt="Not found" />
             </div>
           </div>
         </TabPanel>
@@ -97,7 +97,7 @@ const RecentCases = () => {
         <TabPanel>
           <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 gap-9">
             <div className="w-full h-[300px] bg-white ">
-              <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_1} alt="Not found" />
+              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_1} alt="Not found" />
             </div>
           </div>
         </TabPanel>
