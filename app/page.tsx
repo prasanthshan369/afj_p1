@@ -12,7 +12,7 @@ import Services from '@/components/Services'
 import Customers from '@/components/Customers'
 import Blog from '@/components/Blog'
 import Team from '@/components/Team'
-
+import ScrollToTopButton from '@/components/ScrollToTopButton'
 const page = () => {
   return (
     <div className='w-full justify-center items-center'>
