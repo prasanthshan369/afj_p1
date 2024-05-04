@@ -26,6 +26,9 @@ const page = () => {
       <Customers/>
       <Contact/>
       <Footer/>
+       <div>
+        <ScrollToTopButton/>
+      </div>
     </div>
   )
 }
