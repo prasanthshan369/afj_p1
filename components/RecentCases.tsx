@@ -25,78 +25,78 @@ const RecentCases = () => {
           </TabList>
         </div>
         <TabPanel>
-          <div className="grid lg:grid-cols-4 lg:grid-rows-2  md:grid-cols-3 sm:grid-cols-2 gap-9">
-            <div className="w-full h-[300px] bg-white">
-              <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_1} alt="Not found" />
+          <div className="grid lg:grid-cols-4 main_img  lg:grid-rows-2  md:grid-cols-3 sm:grid-cols-2 gap-9">
+            <div className="w-full h-[300px] hover:scale-110 transition-all duration-300 cursor-pointer  bg-white">
+              <Image className="w-full h-full  object-contain  shadow-lg rounded-md " src={c_1} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] hover:scale-110 transition-all duration-300 cursor-pointer bg-white">
               <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_2} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_3} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_4} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_5} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_6} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_7} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_8} alt="Not found" />
             </div>
           </div>
         </TabPanel>
         <TabPanel>
           <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-9">
-          <div className="w-full h-[300px] bg-white">
+          <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_1} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_2} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_3} alt="Not found" />
             </div>
           </div>
         </TabPanel>
         <TabPanel>
           <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-9">
-          <div className="w-full h-[300px] bg-white">
+          <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_6} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_7} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_8} alt="Not found" />
             </div>
           </div>
         </TabPanel>
         <TabPanel>
           <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-9">
-          <div className="w-full h-[300px] bg-white">
+          <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_4} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_5} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_6} alt="Not found" />
             </div>
-            <div className="w-full h-[300px] bg-white">
+            <div className="w-full h-[300px] bg-white hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-cover shadow-lg rounded-md " src={c_7} alt="Not found" />
             </div>
           </div>
         </TabPanel>
         <TabPanel>
           <div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-1 gap-9">
-            <div className="w-full h-[300px] bg-white ">
+            <div className="w-full h-[300px] bg-white  hover:scale-110 transition-all duration-300 cursor-pointer">
               <Image className="w-full h-full object-contain shadow-lg rounded-md " src={c_1} alt="Not found" />
             </div>
           </div>
