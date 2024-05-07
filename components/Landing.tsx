@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { MdClose } from "react-icons/md";
 const Landing = () => {
-  const [isOpen, setIsOpen] = useState(true)
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <div>
     <div className='md:px-20 px-5 pt-5 shadow pb-1 sm:px-0 bg-white'>
